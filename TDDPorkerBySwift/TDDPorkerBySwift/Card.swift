@@ -16,7 +16,7 @@ struct Card{
     }
     
     enum Rank: String{
-        case one = "1"
+        case ace = "1"
         case two = "2"
         case three = "3"
         case four = "4"
@@ -36,5 +36,9 @@ struct Card{
     
     var notation: String{
         return  rank.rawValue + suit.rawValue
+    }
+    
+    func hasSameSuit(_ card: Card) -> Bool{
+        return true
     }
 }
