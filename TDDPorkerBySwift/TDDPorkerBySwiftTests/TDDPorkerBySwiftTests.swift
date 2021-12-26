@@ -25,6 +25,9 @@ class TDDPorkerBySwiftTests: XCTestCase {
     func testCardNotation(){
         let card = Card(suit: .heart, rank: .three)
         XCTAssertEqual(card.notation , "3♥")
+        
+        let card2 = Card(suit: .spade, rank: .jack)
+        XCTAssertEqual(card2.notation, "J♠︎")
     }
 
 }
