@@ -15,6 +15,7 @@
 		8579FDEE27785D58009ECF67 /* TDDPorkerBySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579FDED27785D58009ECF67 /* TDDPorkerBySwiftUITests.swift */; };
 		8579FDF027785D58009ECF67 /* TDDPorkerBySwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579FDEF27785D58009ECF67 /* TDDPorkerBySwiftUITestsLaunchTests.swift */; };
 		8579FDFD27785EF1009ECF67 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579FDFC27785EF1009ECF67 /* Card.swift */; };
+		8579FDFF27786C04009ECF67 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579FDFE27786C04009ECF67 /* Hand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8579FDED27785D58009ECF67 /* TDDPorkerBySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPorkerBySwiftUITests.swift; sourceTree = "<group>"; };
 		8579FDEF27785D58009ECF67 /* TDDPorkerBySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDPorkerBySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8579FDFC27785EF1009ECF67 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8579FDFE27786C04009ECF67 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				8579FDD627785D58009ECF67 /* Assets.xcassets */,
 				8579FDD827785D58009ECF67 /* Preview Content */,
 				8579FDFC27785EF1009ECF67 /* Card.swift */,
+				8579FDFE27786C04009ECF67 /* Hand.swift */,
 			);
 			path = TDDPorkerBySwift;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8579FDFF27786C04009ECF67 /* Hand.swift in Sources */,
 				8579FDD527785D58009ECF67 /* ContentView.swift in Sources */,
 				8579FDFD27785EF1009ECF67 /* Card.swift in Sources */,
 				8579FDD327785D58009ECF67 /* TDDPorkerBySwiftApp.swift in Sources */,
