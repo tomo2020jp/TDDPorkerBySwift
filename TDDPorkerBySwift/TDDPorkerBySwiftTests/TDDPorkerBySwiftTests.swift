@@ -64,9 +64,18 @@ class TDDPorkerBySwiftTests: XCTestCase {
     }
     
     func testisPair(){
-        let card1 = Card(rank: .king, suit: .spade)
-        let card2 = Card(rank: .king, suit: .heart)
-        let hand = Hand(cards: [card1, card2])
+        var card1: Card
+        var card2: Card
+        var hand: Hand
+        
+        card1 = Card(rank: .king, suit: .spade)
+        card2 = Card(rank: .king, suit: .heart)
+        hand = Hand(cards: [card1, card2])
         XCTAssertTrue(hand.isPair)
+        
+        card1 = Card(rank: .queen, suit: .spade)
+        card2 = Card(rank: .king, suit: .heart)
+        hand = Hand(cards: [card1, card2])
+        XCTAssertFalse(hand.isPair)
     }
 }

@@ -11,6 +11,6 @@ struct Hand{
     let cards: [Card]
     
     var isPair: Bool{
-        return true
+        return cards[0].rank == cards[1].rank
     }
 }
