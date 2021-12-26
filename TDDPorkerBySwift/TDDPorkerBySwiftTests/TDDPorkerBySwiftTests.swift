@@ -56,5 +56,13 @@ class TDDPorkerBySwiftTests: XCTestCase {
         card1 = Card(rank: .queen, suit: .club)
         card2 = Card(rank: .jack, suit: .diamond)
         XCTAssertNotEqual(card1, card2)
+        
+        card1 = Card(rank: .jack, suit: .diamond)
+        card2 = Card(rank: .jack, suit: .club)
+        XCTAssertNotEqual(card1, card2)
+        
+        card1 = Card(rank: .queen, suit: .club)
+        card2 = Card(rank: .jack, suit: .club)
+        XCTAssertNotEqual(card1, card2)
     }
 }
