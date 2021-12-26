@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Card{
+struct Card: Equatable{
     enum Suit: String{
         case heart = "♥"
         case spade = "♠︎"
@@ -44,5 +44,9 @@ struct Card{
     
     func hasSameRank(_ card: Card) -> Bool{
         return rank == card.rank
+    }
+    
+    static func ==(lhs: Card, rhs: Card) -> Bool{
+        return lhs.hasSameRank(rhs) && lhs.hasSameSuit(rhs)
     }
 }
